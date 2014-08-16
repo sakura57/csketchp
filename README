@@ -1,0 +1,28 @@
+------------------------------------
+
+1.) Overview
+
+csketchp is a basic tool for calculating Riemann sums of curve sketches.
+
+It is intended to be an educational aid.
+
+------------------------------------
+
+2.) Compiling
+
+Make sure SFML 1.6 is properly installed and configured.
+
+On Debian 7.0, the following packages are required:
+libsfml-graphics1.6
+libsfml-window1.6
+libsfml-system1.6
+libsfml-dev
+
+To compile, issue the following console commands in the parent directory:
+
+cmake .
+make
+
+Program options can be found in /bin/options.cfg, and adjusted to suit the user.
+
+------------------------------------
